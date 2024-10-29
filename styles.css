@@ -1,0 +1,110 @@
+body {
+	background-image: url(assets/images/bg.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 100vh;
+}
+
+#container {
+	background-color: rgb(9, 3, 48, 0.1);
+	width: 30%;
+
+	padding: 40px;
+
+	border: 2px solid rgb(4, 192, 186);
+	display: flex;
+	flex-direction: column;
+
+}
+
+.box {
+	display: flex;
+	justify-content: center;
+	margin-top: 100px;
+}
+
+#rules {
+	width: 60px;
+	height: 40px;
+
+	border: 3px red solid;
+	background-color: rgb(9, 3, 48, 0.1);
+	color: white;
+	text-transform: uppercase;
+
+}
+
+
+h3 {
+	text-align: center;
+	font-size: 32px;
+	color: antiquewhite;
+	text-transform: uppercase;
+	font-family: 'Bruno Ace', cursive;
+
+}
+
+.cent {
+	align-self: center;
+}
+
+#guess {
+	padding: 10px;
+	width: 100px;
+	height: 40px;
+	font-size: 12px;
+	border: none;
+	align-content: center;
+	text-align: center;
+
+}
+
+#btn {
+	margin-top: 40px;
+	width: 250px;
+	height: 40px;
+	align-self: center;
+	background-color: rgb(188, 2, 2);
+	border: none;
+	color: white;
+	text-transform: uppercase;
+	font-size: 15px;
+	font-family: 'Bruno Ace', cursive;
+
+
+}
+
+
+@media all and (max-width:800px) {
+	h3 {
+		font-size: 18px;
+	}
+
+	#guess {
+		font-size: 10px;
+		height: 30px;
+	}
+
+	#btn {
+		width: 150px;
+		height: 30px;
+	}
+
+	.box {
+		margin-left: -200px;
+	}
+}
+
+@media all and (max-width:500px) {
+
+	#rules {
+		width: 40px;
+		height: 20px;
+		font-size: 6px;
+	}
+
+	.box {
+		margin-left: -30px;
+	}
+}
